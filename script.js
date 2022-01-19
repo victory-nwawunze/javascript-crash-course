@@ -6,10 +6,12 @@ alert("hello");
 // alert("this is a comments")
 
 // Variable
-var a = "somothie";
+/*var a = "somothie";
 console.log(a);
 
 // Variable with numbers
 
 var someNumber = 45;
-console.log(someNumber);
+console.log(someNumber);*/
+
+document.getElementById("someText").innerHTML = "Hey";
