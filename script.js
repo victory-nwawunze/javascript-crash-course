@@ -77,6 +77,36 @@ console.log(someNumber);*/
 // }
 
 // For Loop
-for (let num = 0; num <= 600; num++) {
-  console.log(num);
-}
+//
+
+//Length() method
+// let fruit = "banana";
+// console.log(fruit.length);
+
+//IndexOf() method
+// let fruit = "banana";
+// console.log(fruit.indexOf("an"));
+
+// Replace() method
+// let fruit = "banana";
+// console.log(fruit.replace("ban", 444));
+
+// Slice() method
+// let fruit = "banana";
+// console.log(fruit.slice(3));
+
+// // UpperCaseMethod() method
+// let fruit = "banana";
+// console.log(fruit.toUpperCase());
+
+// LowerCaseCaseMethod() method
+// let fruit = "banana";
+// console.log(fruit.toLowerCase());
+
+// CharAt() method
+// let fruit = "banana";
+// console.log(fruit.charAt(3));
+
+// split() method
+let fruit = "banana, berry";
+console.log(fruit.split(","));
