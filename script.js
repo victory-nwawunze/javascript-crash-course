@@ -62,9 +62,21 @@ console.log(someNumber);*/
 //   console.log(result);
 // }
 // setNumber(10, 10);
-function greeting(yourName) {
-  var result = "Hello " + yourName;
-  console.log(result);
+// function greeting(yourName) {
+//   var result = "Hello " + yourName;
+//   console.log(result);
+// }
+// var question = prompt("what your name");
+// greeting(question);
+
+// While Loop
+// var num = 0;
+// while (num < 100) {
+//   num += 1;
+//   console.log(num);
+// }
+
+// For Loop
+for (let num = 0; num <= 600; num++) {
+  console.log(num);
 }
-var question = prompt("what your name");
-greeting(question);
