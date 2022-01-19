@@ -39,6 +39,32 @@ console.log(someNumber);*/
 // console.log(num1);
 
 // Increment/Decrement by any number you want
-var num1 = 30;
-num1 += 10;
-console.log(num1);
+// var num1 = 30;
+// num1 += 10;
+// console.log(num1);
+
+// Function in javascript
+// function fun() {
+//   alert("this is a function");
+// }
+// fun();
+
+// function greeting() {
+//   var name = prompt("what your name?");
+//   var result = "Hello " + name;
+//   console.log(result);
+// }
+// greeting();
+
+//Passing arguements in function
+// function setNumber(num1, num2) {
+//   var result = num1 + num2;
+//   console.log(result);
+// }
+// setNumber(10, 10);
+function greeting(yourName) {
+  var result = "Hello " + yourName;
+  console.log(result);
+}
+var question = prompt("what your name");
+greeting(question);
