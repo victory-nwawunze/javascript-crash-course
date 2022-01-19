@@ -14,4 +14,6 @@ console.log(a);
 var someNumber = 45;
 console.log(someNumber);*/
 
-document.getElementById("someText").innerHTML = "Hey";
+// document.getElementById("someText").innerHTML = "Hey";
+var age = prompt("what your age?");
+document.getElementById("someText").innerHTML = age;
