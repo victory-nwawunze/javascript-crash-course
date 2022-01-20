@@ -108,5 +108,12 @@ console.log(someNumber);*/
 // console.log(fruit.charAt(3));
 
 // split() method
-let fruit = "banana, berry";
-console.log(fruit.split(","));
+// let fruit = "banana, berry";
+// console.log(fruit.split(","));
+
+// Arrays in Javascript
+// let fruits = ["apple", "banana", "mango", "orange"];
+// console.log(fruits);
+// Or
+let fruits = new Array("orange", "watermelon", "mango", "pawpaw");
+console.log(fruits);
