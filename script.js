@@ -1,6 +1,6 @@
 /** @format */
 
-console.log("hello worlds");
+// console.log("hello worlds");
 // alert("hello");
 // This is a comments
 // alert("this is a comments")
@@ -119,7 +119,26 @@ console.log(someNumber);*/
 // console.log(fruits);
 // alert(fruits[1]);
 // We can also Loop through an Array
-let fruit = ["mango", "banana", "orange", "lemon"];
-for (let i = 0; i < fruit.length; i++) {
-  console.log(fruit);
-}
+// let fruit = ["mango", "banana", "orange", "lemon"];
+// for (let i = 0; i < fruit.length; i++) {
+//   console.log(fruit);
+// }
+// We can also convert an array to a string using the ".toString()" method
+// let fruit = ["mango", "banana", "water-melon", "paw-paw"];
+// console.log("to string =>", fruit.toString());
+// We can also join things to a string in an array
+// let fruit = ["mango", "pawpaw", "orange", "pears"];
+// console.log(fruit.join("-"));
+// we can also remove the last item in an array using the ".pop()" method
+// let fruit = ["banana", "pear", "mango", "orange"];
+// console.log(fruit, fruit.pop(), fruit);
+
+// we can also add a new item in an array with the ".push()" method, this will add an item to the end of the array
+// let fruit = ["mango", "banana", "water-melon", "orange"];
+// console.log(fruit, fruit.push("pear"), fruit);
+// We can also remove first item in an array using the ".shift()" method
+// let fruit = ["mango", "apple", "pear", "water-melon"];
+// console.log(fruit, fruit.shift(), fruit);
+// We can also add a new item in the front/begining of an array using the ".unshift()" method.
+let fruit = ["mango", "orange", "lemon", "pear"];
+console.log(fruit, fruit.unshift("apple"), fruit);
