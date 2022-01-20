@@ -179,7 +179,7 @@ console.log(
   someNumber.sort(function (a, b) {
     return a - b;
   })
-); //Asc ending order
+); //Ascending order
 console.log(
   someNumber,
   "decending ==>",
@@ -187,3 +187,9 @@ console.log(
     return b - a;
   })
 ); //descending order
+// We can also push numbers to an array using the "For" loop method
+let emptyArray = new Array();
+for (let num = 0; num <= 10; num++) {
+  emptyArray.push(num);
+}
+console.log(emptyArray);
