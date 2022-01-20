@@ -205,13 +205,23 @@ console.log(someNumber);*/
 // studentAge.age++;
 // console.log(studentAge.age);
 // Using Object in "Object Oriented Programming"
-let student = {
-  first: "Nwawunze",
-  last: "Victory",
-  height: 170,
-  age: 20,
-  studentInfo: function () {
-    return this.first + "\n" + this.last + "\n" + this.age + "\n" + this.height;
-  },
-};
-console.log(student.studentInfo());
+// let student = {
+//   first: "Nwawunze",
+//   last: "Victory",
+//   height: 170,
+//   age: 20,
+//   studentInfo: function () {
+//     return this.first + "\n" + this.last + "\n" + this.age + "\n" + this.height;
+//   },
+// };
+// console.log(student.studentInfo());
+
+// Conditional rendering with the "IF" & "Else" statement in javascript
+var age = prompt("what your age ?");
+if (age >= 18 && age <= 35) {
+  statu = "Target demo";
+  console.log(statu);
+} else {
+  statu = "Not suitable for the position";
+  console.log(statu);
+}
