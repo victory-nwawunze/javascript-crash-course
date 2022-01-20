@@ -115,5 +115,11 @@ console.log(someNumber);*/
 // let fruits = ["apple", "banana", "mango", "orange"];
 // console.log(fruits);
 // Or
-let fruits = new Array("orange", "watermelon", "mango", "pawpaw");
-console.log(fruits);
+// let fruits = new Array("orange", "watermelon", "mango", "pawpaw");
+// console.log(fruits);
+// alert(fruits[1]);
+// We can also Loop through an Array
+let fruit = ["mango", "banana", "orange", "lemon"];
+for (let i = 0; i < fruit.length; i++) {
+  console.log(fruit);
+}
