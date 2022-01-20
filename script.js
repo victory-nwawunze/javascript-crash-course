@@ -140,5 +140,50 @@ console.log(someNumber);*/
 // let fruit = ["mango", "apple", "pear", "water-melon"];
 // console.log(fruit, fruit.shift(), fruit);
 // We can also add a new item in the front/begining of an array using the ".unshift()" method.
-let fruit = ["mango", "orange", "lemon", "pear"];
-console.log(fruit, fruit.unshift("apple"), fruit);
+// let fruit = ["mango", "orange", "lemon", "pear"];
+// console.log(fruit, fruit.unshift("apple"), fruit);
+// We can add or join an array together using the ".concat()" method
+// let fruits = ["mango", "apple", "water-melon", "pear"];
+// let vegetables = ["tomato", "water-leaf", "meat"];
+// let allgrocries = fruits.concat(vegetables);
+// console.log(allgrocries);
+// we can also use the ".slice()" to a particular item in an array
+// let fruit = ["apple", "mango", "water-melon", "pear", "orange"];
+// console.log(fruit, fruit.slice(3), fruit);
+// we can also use the ".reverse()" this is to arrange an items from the top to  bottom in an array
+// let fruit = ["mango", "apple", "banana", "pear"];
+// console.log(fruit, "reverse =>", fruit.reverse(), fruit);
+// We can use the ".sort()" method to arrange numbers in an array from the lowest to the highest
+// let someNumbers = [
+//   "100",
+//   "200",
+//   "1",
+//   "900",
+//   "90",
+//   "50",
+//   "20",
+//   "290",
+//   "40",
+//   "30",
+//   "89",
+// ];
+// console.log(someNumbers, "sorted ==>", someNumbers.sort(), someNumbers);
+// We can also use the ".sort()" to arrange an array alphabetically
+// let fruit = ["apple", "mango", "lemon", "tomato", "carrot"];
+// console.log(fruit, "sorted ==>", fruit.sort(), fruit);
+// We can also sort number in an acceding or decending order using the ".sort()" method
+let someNumber = ["800", "1", "900", "400", "200", "300"];
+console.log(
+  someNumber,
+  "accending ==>",
+  someNumber.sort(function (a, b) {
+    return a - b;
+  })
+); //Asc ending order
+console.log(
+  someNumber,
+  "decending ==>",
+  someNumber.sort(function (a, b) {
+    return b - a;
+  })
+); //descending order
