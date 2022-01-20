@@ -172,24 +172,46 @@ console.log(someNumber);*/
 // let fruit = ["apple", "mango", "lemon", "tomato", "carrot"];
 // console.log(fruit, "sorted ==>", fruit.sort(), fruit);
 // We can also sort number in an acceding or decending order using the ".sort()" method
-let someNumber = ["800", "1", "900", "400", "200", "300"];
-console.log(
-  someNumber,
-  "accending ==>",
-  someNumber.sort(function (a, b) {
-    return a - b;
-  })
-); //Ascending order
-console.log(
-  someNumber,
-  "decending ==>",
-  someNumber.sort(function (a, b) {
-    return b - a;
-  })
-); //descending order
-// We can also push numbers to an array using the "For" loop method
-let emptyArray = new Array();
-for (let num = 0; num <= 10; num++) {
-  emptyArray.push(num);
-}
-console.log(emptyArray);
+// let someNumber = ["800", "1", "900", "400", "200", "300"];
+// console.log(
+//   someNumber,
+//   "accending ==>",
+//   someNumber.sort(function (a, b) {
+//     return a - b;
+//   })
+// ); //Ascending order
+// console.log(
+//   someNumber,
+//   "decending ==>",
+//   someNumber.sort(function (a, b) {
+//     return b - a;
+//   })
+// ); //descending order
+// // We can also push numbers to an array using the "For" loop method
+// let emptyArray = new Array();
+// for (let num = 0; num <= 10; num++) {
+//   emptyArray.push(num);
+// }
+// console.log(emptyArray);
+
+// Object in javascript
+// let student = { firstName: "Nwawunze", LastName: "Victory" };
+// console.log(student, "student =>", student.firstName, student.firstName);
+// console.log(student, "student => ", student.LastName, student.LastName);
+// We can also decrement or increment in an object
+// let studentAge = {
+//   age: 39,
+// };
+// studentAge.age++;
+// console.log(studentAge.age);
+// Using Object in "Object Oriented Programming"
+let student = {
+  first: "Nwawunze",
+  last: "Victory",
+  height: 170,
+  age: 20,
+  studentInfo: function () {
+    return this.first + "\n" + this.last + "\n" + this.age + "\n" + this.height;
+  },
+};
+console.log(student.studentInfo());
