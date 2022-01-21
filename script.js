@@ -226,15 +226,12 @@ console.log(someNumber);*/
 //   console.log(statu);
 // }
 // Switch statement
-var age = 45;
-switch (6) {
+var day = 7;
+switch (2) {
   case 0:
     text = "week-end";
     break;
-  case 1:
-    text = "week-end";
-    break;
-  case 2:
+  case 5:
     text = "week-end";
     break;
   case 6:
